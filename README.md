@@ -12,3 +12,7 @@ Proyecto de videojuego 3D desarrollado en Unity.
 - Unity
 - C#
 - Git y GitHub
+## Desarrollo
+
+El proyecto se desarrolla mediante ramas Feature
+que se integran en Dev antes de llegar a main.
