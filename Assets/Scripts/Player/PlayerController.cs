@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         Move();
+        Debug.Log("Movement system active");
     }
 
     private void Move()
