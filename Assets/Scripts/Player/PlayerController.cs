@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         Move();
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Interaction key pressed");
+        }
     }
 
     private void Move()
