@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
 
+    private const string MovementVersion = "Caso03";
 
     private void Update()
     {
