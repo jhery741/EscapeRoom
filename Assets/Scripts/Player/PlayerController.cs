@@ -8,7 +8,15 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         Move();
+<<<<<<< HEAD
         Debug.Log("Movement system active");
+=======
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Interaction key pressed");
+        }
+>>>>>>> Caso06_B_Interaccion
     }
 
     private void Move()
