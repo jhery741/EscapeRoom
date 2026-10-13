@@ -25,16 +25,18 @@ public class OldDoorController : MonoBehaviour
         }
     }
 
-    void TryOpenDoor()
+    
+void TryOpenDoor()
+{
+    if (isLocked)
     {
-        if (isLocked)
-        {
-            Debug.Log("La puerta está cerrada. Necesitas una llave.");
-        }
-        else
-        {
-            Debug.Log("Puerta abierta. ¡Has escapado!");
-            gameObject.SetActive(false);
-        }
+        Debug.Log("Puerta bloqueada. Busca la llave para escapar.");
     }
+    else
+    {
+        Debug.Log("¡Felicidades! Has escapado de la habitación.");
+        gameObject.SetActive(false);
+    }
+}
+
 }
