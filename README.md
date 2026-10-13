@@ -16,3 +16,7 @@ Proyecto de videojuego 3D desarrollado en Unity.
 
 El proyecto se desarrolla mediante ramas Feature
 que se integran en Dev antes de llegar a main.
+
+
+## Organización del trabajo
+El equipo utiliza Git y GitHub para colaborar, controlar versiones y compartir los avances del proyecto.
