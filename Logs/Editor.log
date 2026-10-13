@@ -1,0 +1,516 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Stif" at "2026-10-12T23:20:20.0808492Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 8132 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-12T23:20:20Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Unity.exe
+-projectpath
+C:\Users\Stif\Downloads\EscapeRoom-main
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-Stif
+-hubSessionId
+2348695f-41e0-447e-9b4a-29c97e06bb91
+-accessToken
+1R4lfBIUBeQIT1ylPu2GdxUde2lBmkmvsqa25yaYEds004f
+Successfully changed project path to: C:\Users\Stif\Downloads\EscapeRoom-main
+C:/Users/Stif/Downloads/EscapeRoom-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [28276]  Target information:
+
+Player connection [28276]  * "[IP] 192.168.1.8 [Port] 55504 [Flags] 2 [Guid] 4199215058 [EditorId] 4199215058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A6KSJ3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28276]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 4199215058 [EditorId] 4199215058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A6KSJ3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28276]  * "[IP] 192.168.10.1 [Port] 55504 [Flags] 2 [Guid] 4199215058 [EditorId] 4199215058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A6KSJ3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28276]  * "[IP] 192.168.25.1 [Port] 55504 [Flags] 2 [Guid] 4199215058 [EditorId] 4199215058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A6KSJ3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28276] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28276] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-12424" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Stif"
+[Licensing::IpcConnector] LicenseClient-Stif channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-Stif-6000.5.5 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 4404)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-Stif-6000.5.5, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Stif-6000.5.5" at "2026-10-12T23:20:32.7269455Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4404, path: "C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              eac0fc05babb45a9b0e7bfe12a5b24bc
+  Correlation Id:          6b3ca32891330d90a0ea5a4d14d3775d
+  External correlation Id: 5103116991887394401
+  Machine Id:              mdrKMdObx9dhkqCBx4gdzEFYxlY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Stif-6000.5.5" (connect: 6.56s, validation: 0.24s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Stif-6000.5.5-notifications" at "2026-10-12T23:20:32.9912281Z"
+[Licensing::Module] Connected to LicensingClient (PId: 4404, launch time: 0.05, total connection time: 6.82s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token 1R4lfBIUBe...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674240207248-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 12.96s
+[Licensing::Module] Licensing is initialized (took 11.96s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 55 unused hashed content files
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Stif/Downloads/EscapeRoom-main/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce GTX 1650
+[D3D12 Device Filter] Driver Version: 32.0.15.9186
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 3935 MB
+[D3D12 Device Filter] Processor Count: 6
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:          NVIDIA
+    VRAM:            3935 MB
+    App VRAM Budget: 3344 MB
+    Driver:          32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.456767 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.253 seconds
+Domain Reload Profiling: 5079ms
+	BeginReloadAssembly (451ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (265ms)
+	initialDomainReloadingComplete (818ms)
+	LoadAllAssembliesAndSetupDomain (2249ms)
+		LoadAssemblies (413ms)
+		AnalyzeDomain (2124ms)
+			TypeCache.Refresh (2121ms)
+				TypeCache.ScanAssembly (1780ms)
+	FinalizeReload (1284ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (680ms)
+			EditorAssembliesLoaded (6ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 37 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Stif\Downloads\EscapeRoom-main\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Stif\Downloads\EscapeRoom-main
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 102.6368ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Stif/Downloads/EscapeRoom-main
+ExitCode: 0 Duration: 0s338ms
+*** Tundra build success (0.25 seconds), 0 items updated, 168 evaluated
+AssetDatabase: script compilation time: 2.063959s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1547ms
+	BeginReloadAssembly (523ms)
+		DisableScriptedObjects (44ms)
+		CreateAndSetChildDomain (189ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (230ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (743ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Starting new worker id: 0 with log in C:/Users/Stif/Downloads/EscapeRoom-main/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=df307e1209b45ad4198d1ebf27bc94bc): Total: 4.470 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1369 ms
+		Asset DB Callback time: managed=36 ms, native=101 ms
+		Scripting: domain reloads=1, domain reload time=875 ms, compile time=2071 ms, other=16 ms
+		Project Asset Count: scripts=113, non-scripts=81
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 105.608ms
+	ApplyChangesToAssetFolders: 1.720ms
+	Scan: 87.072ms
+	Collect global state as custom dependencies: 13.107ms
+	CategorizeScriptCompilationAssets: 0.356ms
+	ProcessAssetsWithTransientArtifactChanges: 3.164ms
+	CategorizeAssets: 5.280ms
+	CompileScripts: 2070.620ms
+	ImportOutOfDateAssets: 764.152ms (747.323ms without children)
+		UnloadImportedAssets: 0.600ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.095ms
+		ImportSchedulerStart: 16.131ms
+	PostProcessAllAssets: 36.580ms
+		MonoPostProcessAllAssets: 36.506ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 14.681ms
+			SyncVS.PostprocessSyncProject 5.982ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.214ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.197ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.483ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.318ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.126ms
+	UnloadStreamsBegin: 3.505ms
+	GenerateScriptTypeHashes: 1.164ms
+	GenerateScriptTypeSerializationHashes: 3.027ms
+	Untracked: 1372.199ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Scanning for USB devices : 4.371ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-EscapeRoom-main
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (0.5 MB). Loaded Objects now: 726.
+Memory consumption went from 204.3 MB to 203.8 MB.
+Total: 8.828300 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.041400 ms MarkObjects: 8.293100 ms  DeleteObjects: 0.363500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\Stif\Downloads\EscapeRoom-main\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Stif/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 47.112 seconds
+	Project init time: 				44.920 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		12.372 seconds
+		Asset Database init time: 		0.966 seconds
+		Global illumination init time: 	0.027 seconds
+		Assemblies load time: 			22.561 seconds
+		Unity extensions init time: 	0.001 seconds
+		Asset Database refresh time: 	4.472 seconds
+	Scene opening time: 			1.801 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791847267091,"processId":12424,"projectLoad":47.112009400000008,"projectInit":44.9195435,"templateInit":0.0,"packageManagerInit":12.3717108,"assetDatabaseInit":0.9662943,"globalIlluminationInit":0.0272139,"assembliesLoad":22.5610474,"unityExtensionsInit":0.0013482,"assetDatabaseRefresh":4.4720776,"sceneOpening":1.8012496}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791847267092,"processId":12424,"editorVersion":"6000.5.5f1 (d16e074b49fd)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Asset Pipeline Refresh (id=35cff61f6c56dbb4584aa207143a4529): Total: 0.293 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "1R4lfBIU"... (expires: 2026-10-13T01:06:32Z)
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/Stif/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.608s, timestamps: [54.327 - 54.935]
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=8963b5fd9c4a7fa44b0cca2092e555b3): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=8d275557b0115274b858b3346b25ded9): Total: 0.096 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=1dcbe9d82640cca4ea0114a84bfebc59): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Asset Pipeline Refresh (id=776ed3c6b3c524143854f336971f6fb6): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=0d56e9086d4c664418d027899333b380): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=235cb17370f7d714aa1e2794612efa40): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: cff877b2c4da0eb43a8618d107d45dab - Path: Assets/00_Scenes' with importer (DefaultImporter)
+Imported 'GUID: cff877b2c4da0eb43a8618d107d45dab' -> (Import Result ID: '53ab91b8e6ae7b91e78ceda20a9a3eb9') in 0.048 seconds [static dependencies only]. Details - ImportResultOutputID=9310b0085e4a9456a091a0afd917b915 DependenciesID=8cc0292961e5ce8381c81a9991e0b7c4 StaticDependenciesID=855f2808f4e42a1bce8aaab9998bdb02 
+
+Asset Pipeline Refresh (id=17ecacf6ab0b5f343a2a651d9cbeed73): Total: 0.316 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=8 ms, native=199 ms
+		Asset DB Callback time: managed=93 ms, native=15 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=114, non-scripts=81
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 2
+	ApplyChangesToAssetFolders: 0.191ms
+	Scan: 99.424ms
+	Collect global state as custom dependencies: 0.120ms
+	OnSourceAssetsModified: 8.305ms
+	ProcessAssetsWithTransientArtifactChanges: 1.310ms
+	CategorizeAssets: 2.288ms
+	ImportOutOfDateAssets: 70.346ms (7.056ms without children)
+		ImportManagerImport: 58.340ms (3.905ms without children)
+		UnloadImportedAssets: 0.207ms
+		ImportSchedulerStart: 4.701ms
+	PostProcessAllAssets: 76.273ms
+		XRBuildSystem.XRAssetImported 1.020ms
+		VersionControlSettings.HiddenFilePostprocess 0.060ms
+		MonoPostProcessAllAssets: 69.973ms
+			AssetPostprocessor.OnPostprocessAllAssets 20.287ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 17.143ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.663ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 5.376ms
+			AssetChangedListener.OnPostprocessAllAssets 4.921ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 4.544ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 4.432ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.408ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.009ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.882ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.475ms
+			AssetEvents.OnPostprocessAllAssets 0.453ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.399ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.164ms
+			SyncVS.PostprocessSyncProject 0.067ms
+	PostAssetChangesProfiler: 24.465ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.071ms
+	UnloadStreamsBegin: 2.524ms
+	PersistCurrentRevisions: 0.064ms
+	Untracked: 30.963ms
+
+[Worker0] Imported GUID: cff877b2c4da0eb43a8618d107d45dab - Path: Assets/00_Scenes - Importer: PreviewImporter -> (ImportResultId: 'f84a1cb45662dfc829b1a4d5e00ef9b9') in 0.1001652 seconds
+[Worker0] Imported GUID: cff877b2c4da0eb43a8618d107d45dab - Path: Assets/00_Scenes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '44d42f002840ae46fbfff16ec055afd7') in 0.2619344 seconds
+Asset Pipeline Refresh (id=d8746ff57347394419f8dfc8b2418912): Total: 0.022 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter -> (ImportResultId: '241dc6ce296e0f395a599982586f164f') in 0.0033397 seconds
+Importing 'GUID: 442b7c21ee2ccdd449a3d1bbd430153e - Path: Assets/01_Scripts' with importer (DefaultImporter)
+Imported 'GUID: 442b7c21ee2ccdd449a3d1bbd430153e' -> (Import Result ID: '5e60fb54159af7923b161d1c92a21bee') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=178c2f8e16236131a49e5ef0ac4d8f88 DependenciesID=695a4bdab403aeb6a78163ed16cc1758 StaticDependenciesID=8bd89152d60de5d275becdd67f8aa782 
+Asset Pipeline Refresh (id=7a4e0dade9269ef4897e24d38ac8438c): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 442b7c21ee2ccdd449a3d1bbd430153e - Path: Assets/01_Scripts - Importer: PreviewImporter -> (ImportResultId: 'f2ae9b9b82f75ba33d4cc2f4ef8614e9') in 0.0012667 seconds
+[Worker0] Imported GUID: 442b7c21ee2ccdd449a3d1bbd430153e - Path: Assets/01_Scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '36f17c6582834f5fe297aea61a1c6335') in 0.0101938 seconds
+Importing 'GUID: 42442ea400fbf894095c52d46fe78228 - Path: Assets/02_Prefabs' with importer (DefaultImporter)
+Imported 'GUID: 42442ea400fbf894095c52d46fe78228' -> (Import Result ID: '958b8057104a7cc94ed3b4301405f832') in 0.013 seconds [static dependencies only]. Details - ImportResultOutputID=f834e46654847114a1fb44cab4ebaf3e DependenciesID=a867d0d59327df025faaecbb96b868fa StaticDependenciesID=d4201ec5609f13dca829d9f0a97fdb07 
+Asset Pipeline Refresh (id=e2cd3fc7bc0607c46b924c28cda6bf93): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 42442ea400fbf894095c52d46fe78228 - Path: Assets/02_Prefabs - Importer: PreviewImporter -> (ImportResultId: '6261bb176561c28fd0be87cdb65b89f7') in 0.000801 seconds
+[Worker0] Imported GUID: 42442ea400fbf894095c52d46fe78228 - Path: Assets/02_Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e29e950fa8de4141f6f7645489ecd799') in 0.0161672 seconds
+Asset Pipeline Refresh (id=32865839f0379ff4fb9c79d36bd5df0e): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: e28cf5b16cd286441af1d696f84a069c - Path: Assets/03_Sprites' with importer (DefaultImporter)
+Imported 'GUID: e28cf5b16cd286441af1d696f84a069c' -> (Import Result ID: 'ad20c2ea71d350ddebcecce5a4513031') in 0.020 seconds [static dependencies only]. Details - ImportResultOutputID=817ca9cacb0ac1ef2729d363205aeef6 DependenciesID=1546766b46377a4e8e70fda45a3e4a88 StaticDependenciesID=f79fb7dfb8ac87e66645c139f6ba576e 
+Asset Pipeline Refresh (id=fba16056b8d2bc847a49c0a12524729a): Total: 0.042 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: e28cf5b16cd286441af1d696f84a069c - Path: Assets/03_Sprites - Importer: PreviewImporter -> (ImportResultId: '041e48971b52d0e92893c09a7feb8291') in 0.0007974 seconds
+[Worker0] Imported GUID: e28cf5b16cd286441af1d696f84a069c - Path: Assets/03_Sprites - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '61adb30590fde8b53c842be38c61d79b') in 0.0046213 seconds
+Importing 'GUID: 802ea64ff5d0654488dcee484841bbe6 - Path: Assets/04_Models' with importer (DefaultImporter)
+Imported 'GUID: 802ea64ff5d0654488dcee484841bbe6' -> (Import Result ID: 'ed88d86b625cc952b819de3dfcc63887') in 0.021 seconds [static dependencies only]. Details - ImportResultOutputID=1c4f2ff4297f86e06e3d046cfd90dc82 DependenciesID=e77e101d4b4781b8af717dde362fb5ef StaticDependenciesID=297396f590b9d91a48240d1ab2279dbf 
+Asset Pipeline Refresh (id=fca3d10642bb76b4b9401de3b7dbf174): Total: 0.043 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 802ea64ff5d0654488dcee484841bbe6 - Path: Assets/04_Models - Importer: PreviewImporter -> (ImportResultId: 'db3d8758d49a81bec97ec0ec7ac9bb2e') in 0.0014782 seconds
+[Worker0] Imported GUID: 802ea64ff5d0654488dcee484841bbe6 - Path: Assets/04_Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5a23d08a3ce314b1a7bd1f25f03669c0') in 0.0058221 seconds
+Asset Pipeline Refresh (id=eecc7b06a2891414eb216060fa6d9571): Total: 0.067 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 21f35d89e4091204f8fb6703e8ed932d - Path: Assets/04_Models/New Material.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 21f35d89e4091204f8fb6703e8ed932d' -> (Import Result ID: '16f0b88597685106ddd964f102d435a7') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=9151feac47c22b1adb69ecac1a743b49 DependenciesID=9fe01ae290d1fdfc1dd49321e2060baa StaticDependenciesID=436bc5c79b9b1f42eccc9b76f367da2f 
+Asset Pipeline Refresh (id=2af4ec29d1526f64d8dd00cd8e9c0e16): Total: 0.174 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 21f35d89e4091204f8fb6703e8ed932d - Path: Assets/04_Models/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f7eca60616e8dbe531ae459929f8087f') in 0.2686394 seconds
+Asset Pipeline Refresh (id=c67cc6d5ef0725d44a743a0e6ecea4a7): Total: 0.058 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Request Asset Garbage Collect because used heap size increased from 204.7 MB to 0.50 GB, exceeding the threshold of 256.0 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 218 unused Assets / (150.9 MB). Loaded Objects now: 2014.
+Memory consumption went from 0.50 GB to 363.9 MB.
+Total: 206.856100 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.048100 ms MarkObjects: 103.321100 ms  DeleteObjects: 103.241500 ms)
+
+Asset Pipeline Refresh (id=63e6e654db8a6ac4da9e8651dd326410): Total: 0.017 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=f6762248922c5d24fa5a07b4236545aa): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a2f2ee39f113b6c4eb3c67849799490f): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=034eddb6829e3a845aefccd78e273512): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=05a48341d15fe554cb1a27164e17b4e1): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=eadf3f46430ccfc4db0a152ac0860ee9): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=710475053a308c84cbafba2cbe908cb1): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=aa987eedc276964439fdf1dd15dcb44e): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a832ff74508396f4ebfdefd87e6da973): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=16f4b37b298f47e4594f6602044ca4a5): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=8e88e109016b8af4aa16fa7549353706): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b85368e474fefce4cb1261e805c868f7): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 2011bbccd4703974d907280d892abe46 - Path: Assets/04_Models/Ground.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2011bbccd4703974d907280d892abe46' -> (Import Result ID: '37891bf15fdd3b0f5d4fe5e595b7658f') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=1ee087a0fde6bb8f9f0fa779b0e71d51 DependenciesID=0b9049499346e32d23d9c10ea05ba2d9 StaticDependenciesID=67087bc36a102e563728f3f6c6ed7d79 
+Asset Pipeline Refresh (id=b07efa6d66e279942aec32d9cb89c159): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 2011bbccd4703974d907280d892abe46 - Path: Assets/04_Models/Ground.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bf172ff18b814474fd01bafda44b8993') in 0.0318986 seconds
+Importing 'GUID: 2011bbccd4703974d907280d892abe46 - Path: Assets/04_Models/Ground.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2011bbccd4703974d907280d892abe46' -> (Import Result ID: '01a9eb9f24f06b252410849991ddb7ca') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=1ee087a0fde6bb8f9f0fa779b0e71d51 DependenciesID=26dc1a43667ab191aaddd83dd32dfaca StaticDependenciesID=210759323e598780fecd5a9fc8968454 
+Importing 'GUID: 21f35d89e4091204f8fb6703e8ed932d - Path: Assets/04_Models/New Material.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 21f35d89e4091204f8fb6703e8ed932d' -> (Import Result ID: 'a42a3cd256871df19c5cd8fe45a36fb1') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9151feac47c22b1adb69ecac1a743b49 DependenciesID=c3b9f7796c3fe91f35fa9674423efa8a StaticDependenciesID=0a77f92838162c1caafa8be5744dc1ea 
+Asset Pipeline Refresh (id=e969475b09eadc944ab665dfcf4925d8): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 21f35d89e4091204f8fb6703e8ed932d - Path: Assets/04_Models/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'afda8c557c910cceb3fce60a4f341f87') in 0.0097384 seconds
+[Worker0] Imported GUID: 2011bbccd4703974d907280d892abe46 - Path: Assets/04_Models/Ground.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e215d99c5ac06b1fddc636c8014030ed') in 0.0149879 seconds
+Importing 'GUID: e768c824017315f4e8e5832547c21609 - Path: Assets/00_Scenes/Main_Scene' with importer (DefaultImporter)
+Imported 'GUID: e768c824017315f4e8e5832547c21609' -> (Import Result ID: '44c6d02b7794325bc6852c1ac5b136e0') in 0.021 seconds [static dependencies only]. Details - ImportResultOutputID=3dc4e6da56fbfc8c4611712412930d0c DependenciesID=5777b940b80e8e5a3a51ae991cbe21d0 StaticDependenciesID=3920f99c68146d0f5a817133b668a70d 
+Asset Pipeline Refresh (id=f5853208869b7d64e9f77aaf8d426945): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: e768c824017315f4e8e5832547c21609 - Path: Assets/00_Scenes/Main_Scene - Importer: PreviewImporter -> (ImportResultId: '03bd59fb592a6ef992b2945d1f5a2434') in 0.0021406 seconds
+[Worker0] Imported GUID: e768c824017315f4e8e5832547c21609 - Path: Assets/00_Scenes/Main_Scene - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '85cd7b41972ad876459da49f8e2f8b2f') in 0.0067196 seconds
+Asset Pipeline Refresh (id=0e824c8eded00404788513edbb7dc06a): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e52f2d26405d05f42bf2a3f1fee90900): Total: 0.016 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Importing 'GUID: e768c824017315f4e8e5832547c21609 - Path: Assets/00_Scenes/Main_Scene' with importer (DefaultImporter)
+Imported 'GUID: e768c824017315f4e8e5832547c21609' -> (Import Result ID: '44c6d02b7794325bc6852c1ac5b136e0') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=3dc4e6da56fbfc8c4611712412930d0c DependenciesID=5777b940b80e8e5a3a51ae991cbe21d0 StaticDependenciesID=3920f99c68146d0f5a817133b668a70d 
+Asset Pipeline Refresh (id=4311d7931738ab148887f91ff2aec496): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 95f8521124e4a584288f1472145b91b6 - Path: Assets/00_Scenes/Main_Scene/s.unity' with importer (DefaultImporter)
+Imported 'GUID: 95f8521124e4a584288f1472145b91b6' -> (Import Result ID: '93e4d32cfb750ec690c386db02ce788a') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=1510234a9cda6e7b332574452c94c5ed DependenciesID=a842d5787cd502de9d1d37bc4251655d StaticDependenciesID=66faf2d76011216f98d6838f49d98bca 
+Asset Pipeline Refresh (id=10e913e7580b0e548b8a46c296172d2c): Total: 0.048 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 95f8521124e4a584288f1472145b91b6 - Path: Assets/00_Scenes/Main_Scene/s.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dc7c3f51c11e75465c82a1653c8e7f0c') in 0.354627 seconds
+Asset Pipeline Refresh (id=992e7e2878f522144908f9c8e8c39571): Total: 0.021 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e4eb61bbc7cfdec4d86d02a54b12b9af): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b1841d19c84919f4daaa3139b201f8c1): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=83124c42afe58e6419d2156bd0e001f1): Total: 0.037 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=d4b2a1ab1b24c5e438f0c99fdd2a61f2): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 9812; Successful remaps: 368
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\Stif\Downloads\EscapeRoom-main\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Stif/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Stif-6000.5.5-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Stif-6000.5.5 channel disconnected successfully.
+Shut down.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 4616
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791850729907,"processId":12424,"allocatedMemory":48712322,"memoryLabels":[{"Default":185255},{"Permanent":15516},{"NewDelete":70389},{"Thread":4205944},{"Manager":30696},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":848725},{"Material":2308},{"GfxDevice":237464},{"GfxThread":2304},{"Animation":952},{"Audio":1256},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":311112},{"Input":42840},{"JobScheduler":256},{"TextLib":13480},{"Mono":48},{"ScriptingNativeRuntime":707732},{"BaseObject":1677481},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":21839},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9586},{"StaticString":3808},{"Utility":2672634},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7096},{"WebRequest":4723},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33051072},{"Camera":566849},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1667440},{"CoreStats":13688},{"Identifiers":6768},{"Gui":1070150},{"EditorUtility":263656},{"VersionControl":8},{"Undo":931},{"AssetDatabase":494462},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3478},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
