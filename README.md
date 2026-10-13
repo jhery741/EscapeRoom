@@ -16,3 +16,6 @@ Proyecto de videojuego 3D desarrollado en Unity.
 
 El proyecto se desarrolla mediante ramas Feature
 que se integran en Dev antes de llegar a main.
+
+## Objetivo del proyecto
+Desarrollar un videojuego Escape Room en Unity donde el jugador resuelva acertijos e interactúe con objetos.
