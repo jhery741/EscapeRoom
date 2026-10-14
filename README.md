@@ -23,3 +23,6 @@ El equipo utiliza Git y GitHub para colaborar, controlar versiones y compartir l
 
 ## Objetivo del proyecto
 Desarrollar un videojuego Escape Room en Unity donde el jugador resuelva acertijos e interactúe con objetos.
+## Controlador del jugador
+
+El proyecto incluye un controlador para el movimiento del jugador en primera persona.e

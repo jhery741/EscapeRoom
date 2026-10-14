@@ -1,4 +1,4 @@
-
+// Caso 12: documentación del controlador de movimiento.e
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
