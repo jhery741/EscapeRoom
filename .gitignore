@@ -18,3 +18,5 @@
 *.opendb
 *.VC.db
 .DS_Store
+# Caso 13 - Archivos temporales del laboratorio
+/TempLaboratorio/

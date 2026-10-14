@@ -1,2 +1,0 @@
-Archivo temporal generado durante el Caso 13.
-Este archivo no debería guardarse en el repositorio.
